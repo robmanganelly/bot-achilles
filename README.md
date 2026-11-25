@@ -11,6 +11,11 @@ This file is the requirement specification, so actors can decide what skills, ro
 [PROPOSAL.md](PROPOSAL.md) is the proposed structure (profile, skills, memories, routines and plugins) of a shareable Grok Bot template built from this specification.
 README and PROPOSAL.md must stay in sync: if a decision changes in one, update the other in the same commit.
 
+Draft files the template will ship, written as the bot will have them (for review):
+- [skills/](skills/): the 5 skills, one folder each with its SKILL.md
+- [routines/](routines/): the 3 routines (schedule/trigger + prompt)
+- [memory/](memory/): the starter memory
+
 ## Prerequisites
 - the bot will require access to:
   - the Google Sheets connector
