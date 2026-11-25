@@ -1,4 +1,4 @@
-# Achilles: shareable template proposal (v3: all of Roberto's answers in; nothing built)
+# Achilles: shareable template proposal (v3)
 
 Source: github.com/robmanganelly/bot-achilles README.md (the only spec file in the repo besides LICENSE), plus the public spreadsheet template it links to.
 
