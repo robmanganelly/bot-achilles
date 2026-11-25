@@ -169,3 +169,9 @@ the format of the file is one line per entry,
 [date],[account],[type: expense/income],[amount],[identifier or description]
 example
 2026/11/24,Chase Personal 1234, expense, $123.45, pet grooming at John's ID: 345676, Hialeah FL
+
+
+## The budget skill
+
+The bot must ship with a skill for budgeting, this skill must teach the bot to update the cells in the monthly summaries that refer to budget ( the expected column, which is manual input) based on predictions of user expense. when the bot does it it must suggest to the user 'do you want me to set/update a budget for next month ? ' or I have these suggestions for budgeting, the bot must present the user with the budget values. example: mortgage: $3000.00 ... the user might suggest changes or decline budgetting at all, the bot should suggest this after the first 2 months, where a pattern is more clear, the time for suggesting is when the month is ending, last 3 days of the month. the budgeting pattern should become more accurate as the time passes, from reading user spending patterns. 
+the bot should also suggest the user, do you want me to identify ways to save money ? if the answer is yes, the bot should look is past expenses, recurrent patterns and suggest the user a budget that cuts some of them, and explaining how much gets saved, and pros and cons, the user must have the final word. 
